@@ -13,3 +13,14 @@ You may use your own code editor like VS Code with a JavaScript plugin to check 
 
 If you want to use the input for the variables as survey response, you should set up embedded code in the Survey Flow.
 There are default embedded code in Qualtrics as well.
+
+There are three options given on when the code might run. If you wish to copy and paste, make sure you are matching it with right function.
+
+```
+Qualtrics.SurveyEngine.addOnload
+
+Qualtrics.SurveyEngine.addOnReady
+
+Qualtrics.SurveyEngine.addOnUnload
+
+```
