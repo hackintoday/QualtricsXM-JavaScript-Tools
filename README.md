@@ -1,3 +1,15 @@
 # QualtricsXM-JavaScript-Tools
 
 ## Reference material for people who need more functionality beyond vanilla Qualtrics XM
+
+This repository was created for people who need more functionality for their survey beyond the default survey options.
+Since this is a work in progress primary for use internally within the Institute for Social Research, it may be disorganized
+and the code may need to fixed to be adapted for your needs.
+
+## Installation and Setup
+
+There are no separate packages code editors required as long as you know how to use the console on your web browser.
+You may use your own code editor like VS Code with a JavaScript plugin to check if the code works.
+
+If you want to use the input for the variables as survey response, you should set up embedded code in the Survey Flow.
+There are default embedded code in Qualtrics as well.
