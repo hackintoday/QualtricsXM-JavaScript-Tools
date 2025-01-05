@@ -15,6 +15,7 @@ If you want to use the input for the variables as survey response, you should se
 There are default embedded code in Qualtrics as well.
 
 There are three options given on when the code might run. If you wish to copy and paste, make sure you are matching it with right function.
+https://www.qualtrics.com/support/survey-platform/survey-module/question-options/add-javascript/
 
 ```
 Qualtrics.SurveyEngine.addOnload
