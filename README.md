@@ -4,8 +4,9 @@
 
 This repository was created for people who need more functionality for their survey beyond the default survey options.
 Since this is a work in progress primary for use internally within the Institute for Social Research, it may be disorganized
-and the code may need to fixed to be adapted for your needs. ChatGPT-4o will do a reasonable job saving you time fixing any aesthetics,
-but be sure to actually check the functionality works as it will sometimes not fix code if you do not explicity state it.
+and the code may need to fixed to be adapted for your needs. ChatGPT-4o on whichever platform you using it from will do a 
+reasonable job saving you time fixing any aesthetics, but be sure to actually check the functionality works as it will 
+sometimes not fix code if you do not explicity state it be done.
 
 ## Installation and Setup
 
