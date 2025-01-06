@@ -12,10 +12,10 @@ There are no separate packages code editors required as long as you know how to 
 You may use your own code editor like VS Code with a JavaScript plugin to check if the code works.
 
 If you want to use the input for the variables as survey response, you should set up embedded code in the Survey Flow.
-There are default embedded code in Qualtrics as well.
+There are built-in embedded code in Qualtrics as well. Use the following for reference: [link](https://www.qualtrics.com/support/survey-platform/survey-module/survey-flow/standard-elements/embedded-data/)
 
 There are three options given on when the code might run. If you wish to copy and paste, make sure you are matching it with right function.
-https://www.qualtrics.com/support/survey-platform/survey-module/question-options/add-javascript/
+[Javascript Guide](https://www.qualtrics.com/support/survey-platform/survey-module/question-options/add-javascript/)
 
 ```
 Qualtrics.SurveyEngine.addOnload
