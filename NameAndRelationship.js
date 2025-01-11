@@ -102,7 +102,8 @@ Qualtrics.SurveyEngine.addOnload(function() {
         Qualtrics.SurveyEngine.setEmbeddedData("relationship3", relationship3);
     };
 
-    // Ensure only valid characters are inputted and auto-jump to the next field
+// You can modify the validation fields as you see fit.    
+// Ensure only valid characters are inputted and auto-jump to the next field
     jQuery("#name1, #name2, #name3").on("input", function() {
         this.value = this.value.replace(/[^a-zA-Z\s]/g, ''); // Allow only letters and spaces for name fields
         if (this.value.length === this.maxLength) {
@@ -127,7 +128,8 @@ Qualtrics.SurveyEngine.addOnload(function() {
     jQuery("#name3").val(Qualtrics.SurveyEngine.getEmbeddedData("name3"));
     jQuery("#relationship3").val(Qualtrics.SurveyEngine.getEmbeddedData("relationship3"));
 
-    // Add a warning message when the respondent presses next
+    // Add a warning message when the respondent presses next. This one checks for any numbers inside the relationship field.
+    // You may modify the warning message conditions as you see fit.
     Qualtrics.SurveyEngine.addOnPageSubmit(function() {
         var relationship1 = jQuery("#relationship1").val().trim();
         var relationship2 = jQuery("#relationship2").val().trim();
