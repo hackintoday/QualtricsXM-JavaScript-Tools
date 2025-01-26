@@ -19,7 +19,7 @@ There are built-in embedded code in Qualtrics as well. Use the "Setting Values w
 There are three options given by default on when the code might run. If you wish to copy and paste, make sure you are matching it with right function.
 [Javascript Guide](https://www.qualtrics.com/support/survey-platform/survey-module/question-options/add-javascript/)
 
-There are also two more, but technically one since addOnClick is being called within addOnload. You would need to use addOnPageSubmit to store information in the embedded variables if you are piping embedded variables in the next question. Otherwise, your code would not have compiled and loaded the embedded variables in time. [JavaScript Question API Guide](https://api.qualtrics.com/82bd4d5c331f1-qualtrics-java-script-question-api-class)
+There are also two more, but technically one since addOnClick is being called within addOnload. You would need to use addOnPageSubmit to store information in the embedded variables if you are piping embedded variables in the next question. Otherwise, your code would not have compiled and loaded the embedded variables in time right after the respondent has clicked the next button. [JavaScript Question API Guide](https://api.qualtrics.com/82bd4d5c331f1-qualtrics-java-script-question-api-class)
 
 ```
 Qualtrics.SurveyEngine.addOnload
