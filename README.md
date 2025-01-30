@@ -25,7 +25,7 @@ There are also two more, addOnClick and addOnPageSubmit which should called in a
 Qualtrics.SurveyEngine.addOnload(function()
 {
 	/*Place your JavaScript here to run when the page loads*/
-		Qualtrics.SurveyEngine.addOnPageSubmit(function()
+  Qualtrics.SurveyEngine.addOnPageSubmit(function()
   {
 	  /*Place your JavaScript here to run when the next or previous page button is pressed*/
 		
