@@ -119,6 +119,21 @@ Qualtrics.SurveyEngine.addOnload(function() {
         }
         checkInput(); // Call checkInput on every input change
     });
+//Replace the above chunk with the following if you use more than English.
+/*
+        // Ensure only valid characters are inputted and auto-jump to the next field
+    jQuery("#name10, #name11, #name12").on("input", function() {
+        // Allow Latin, Hangul, and CJK characters for name fields
+        this.value = this.value.replace(/[^\u0000-\u007F\uAC00-\uD7A3\u4E00-\u9FFF\u00C0-\u024F]/g, '');
+        checkInput(); // Call checkInput on every input change
+    });
+
+    jQuery("#relationship10, #relationship11, #relationship12").on("input", function() {
+        // Allow Latin, Hangul, and CJK characters for relationship fields
+        this.value = this.value.replace(/[^\u0000-\u007F\uAC00-\uD7A3\u4E00-\u9FFF\u00C0-\u024F]/g, '');
+        checkInput(); // Call checkInput on every input change
+    });
+*/	
 
     // Populate the text fields with existing embedded data values
     jQuery("#name1").val(Qualtrics.SurveyEngine.getEmbeddedData("name1"));
